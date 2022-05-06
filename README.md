@@ -145,7 +145,7 @@
      
    - Chúng ta có thể chọn bất cứ UA nào . Ở đây , mình chọn UA thứ 3. Sau đó nhấn `Apply (active window).
 
-     ![image](https://user-images.githubusercontent.com/101852647/167116618-7e2b4fee-07d9-44bc-a660-8c999bc0e226.png)
+     ![image](https://user-images.githubusercontent.com/101852647/167116850-d59f3e2c-6408-449c-b3f0-265da214bc9c.png)
 
    - Sau đó chúng ta nhấn vào Test UA để kiểm tra xem UA đã thay đổi chưa. Chúng ta có thể thấy nó đã thay đổi UA so với lúc đầu.
 
