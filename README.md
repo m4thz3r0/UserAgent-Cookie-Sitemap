@@ -284,9 +284,11 @@
    
  - Đối với người dùng: 
    - Chúng làm cho web tiện lợi hơn, người dùng có thể truy cập vào web nhanh hơn không phải nhập lại các thông tin nhiều lần.
+   
 <br> 6.4 Rủi ro của Cookie <a name="tc"></a></br>
  - Cookie ảnh hưởng tới sự riêng tư của người dùng. cũng như rò rỉ thông tin cá nhân. Cookie theo dõi người dùng đã ghé thăm những nơi nào và đã xem những gì trên web.
  -  Bản thân các cookie không thể dùng để phát tán virus, mã độc. Tuy nhiên nó có thể thu thập khá nhiều thông tin cá nhân của bạn nhất là những thông tin bạn cung cấp trên trang web như thông tin thẻ tín dụng… nên cookie có thể làm tăng nguy cơ mất thông tin đăng nhập nếu như người khác sử dụng máy tính của bạn, hoặc trường hợp máy tính của bạn bị xâm nhập, đánh cắp.
+ 
 <br> 6.5 Chúng ta cần làm gì để sử dụng cookie an toàn <a name="tc"></a></br>
  - Thiết lập tùy chọn cookie bằng cách sử dụng cài đặt chế độ bảo mật cho trình duyệt.
  - Xóa cookie định kỳ trên máy tính
