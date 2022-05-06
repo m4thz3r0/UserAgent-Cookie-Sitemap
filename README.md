@@ -154,3 +154,46 @@
   - Nếu chúng ta muốn thay đổi về lại UA ban đầu thì có thể nhấn Reset. Nó sẽ trả về UA ban đầu cho chúng ta.
 
     ![image](https://user-images.githubusercontent.com/101852647/167116683-725b86b6-89a8-44fa-9270-1f73faca245f.png)
+
+#### 4. Tìm hiểu về sitemap <a name="gioithieu"></a>
+<br> 4.1 sitemap là gì? <a name="tc"></a></br>
+ - Sitemap (sơ đồ website) là một file liệt kê các trang và tệp tin trên website. Danh sách liệt kê được sắp xếp theo dạng sơ đồ phân tầng (giảm dần sự quan trọng) giúp các công cụ tìm kiếm:
+
+   - Thu thập dữ liệu trên trang web của bạn hiệu quả hơn
+   - Biết những URL nào bạn muốn ưu tiên xuất hiện
+   - Hiển thị kết quả trên trang tìm kiếm thông minh hơn
+   
+<br> 4.2 Các loại sitemap <a name="tc"></a></br>
+ - Về mặt cấu trúc: 
+   - Có 2 loại sitemap là XML và HTML.
+
+     - XML (Dành cho bot của công cụ tìm kiếm) 
+
+     - HTML (Hiển thị cho người dùng dễ truy cập trên các giao diện trang web)
+     
+     <table align="center">
+   <tr>
+        <td align="center" ><b>Sitemap</b></td>
+        <td align="center"><b>XML</b></td>
+        <td align="center"><b>HTML</b></td>
+        
+   </tr>
+   <tr>
+        <td ><b>Đặc điểm</b></td>
+        <td ><b>Chứa các metadata chung với URL của website</b></td>  
+        <td ><b>Cung cấp chuyển hướng rõ ràng cho người dùng</b></td> 
+   </tr>
+   <tr>
+        <td ><b>Giống nhau</b></td>
+        <td ><b>Chi tiết liên quan đến các cột có kiểu dữ liệu bí danh</b></td>      
+   </tr>
+   <tr>
+        <td><b>Khác nhau</b></td>
+        <td><b>Đặc quyền cột do người dùng hiện tại cấp hoặc cấp</b></td>      
+   </tr>
+  
+ </table>
+ - Về dạng: 
+<br> 4.3 Tại sao phải cần dùng sitemap <a name="tc"></a></br>
+<br> 4.4 sitemap là gì? <a name="tc"></a></br>
+<br> 4.5 sitemap là gì? <a name="tc"></a></br>
