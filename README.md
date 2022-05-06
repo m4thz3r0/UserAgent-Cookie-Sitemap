@@ -34,17 +34,18 @@
 #### 1. User agent là gì? <a name="gioithieu"></a>
 <br> 1.1 User agent là gì? <a name="tc"></a></br>
   - User agent thì nó là một chuỗi nhận dạng của trình duyệt khi gửi yêu cầu đến Web Server (máy chủ web). Khi trình duyệt web của bạn truy cập 1 trang Web bất kỳ, trình duyệt web của bạn có thể gửi một HTTP Request bao gồm chuỗi UA đến Web Server. Nội dung của UA tùy thuộc vào trình duyệt web các bạn dùng, mỗi trình duyệt đều có riêng 1 chuỗi UA nhất định. 
+  
 <br> 1.2 User agent sử dụng trong HTTP <a name="tc"></a></br>
  - chuỗi User-Agent thường được sử dụng để thương lượng nội dung , trong đó máy chủ gốc chọn nội dung hoặc thông số hoạt động phù hợp cho phản hồi. Như với nhiều tiêu đề yêu cầu HTTP khác, thông tin trong chuỗi " User-Agent " góp phần vào thông tin mà máy khách gửi đến máy chủ, vì chuỗi này có thể khác nhau đáng kể từ người dùng này sang người dùng khác.
    - Định dạng cho các trình duyệt web do con người vận hành:
      - Định dạng của chuỗi User-Agent trong HTTP là danh sách các mã thông báo sản phẩm (từ khóa) với các nhận xét tùy chọn.  Ví dụ: nếu sản phẩm của người dùng được gọi là WikiBrowser, thì chuỗi User-Agent của họ có thể là WikiBrowser / 1.0 Gecko / 1.0 . Thành phần sản phẩm "quan trọng nhất" được liệt kê đầu tiên. Các phần của chuỗi này như sau:
 
-       - Tên và phiên bản sản phẩm ( WikiBrowser / 1.0 )
-       - Công cụ bố trí và phiên bản ( Gecko / 1.0 )
+       ` Tên và phiên bản sản phẩm ( WikiBrowser / 1.0 )`
+       ` Công cụ bố trí và phiên bản ( Gecko / 1.0 )`
        
    - Định dạng cho tác nhân tự động (bot):
      - Các công cụ thu thập thông tin web tự động có thể sử dụng biểu mẫu đơn giản hóa, trong đó trường quan trọng là thông tin liên hệ trong trường hợp có sự cố. Theo quy ước từ "bot" được bao gồm trong tên của agent. Ví dụ:
-       - Googlebot / 2.1 (+ http: //www.google.com/bot.html)
+       `Googlebot / 2.1 (+ http: //www.google.com/bot.html)`
      
    - User agent spoofing:
    
