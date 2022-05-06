@@ -197,7 +197,9 @@
    </tr>
   
  </table>
- - Về dạng: 
+ 
+- Về dạng: 
+
    <table align="center">
    <tr>
         <td align="center" ><b>Tên</b></td>
@@ -231,8 +233,8 @@
         <td ><b>Sitemap-image.xml</b></td>
         <td ><b>Giúp Google tìm thấy tất cả các hình ảnh được lưu trữ trên trang web của bạn</b></td>   
    </tr>
-  
  </table>
 <br> 4.3 Tại sao phải cần dùng sitemap <a name="tc"></a></br>
-<br> 4.4 sitemap là gì? <a name="tc"></a></br>
-<br> 4.5 sitemap là gì? <a name="tc"></a></br>
+ - Chúng ta luôn muốn Google thu thập dữ liệu mọi trang và liên kết quan trọng trên website một cách nhanh chóng. Sitemap sẽ là bản đồ điều hướng, giúp các bot của google có thể dễ dàng và nhanh chóng thu thập được dữ liệu nội dung trên website của chúng ta.
+ - Sitemap còn có thể chứa các siêu dữ liệu về mỗi URL, thông báo sẽ được gửi đến cho chúng ta khi nó mới được cập nhật. Toàn bộ công việc của Sitemap là hướng dẫn cho các bộ máy tìm kiếm thu thập thông tin của trang web một cách hiệu quả đồng thời cập nhật những thay đổi trên trang web của bạn.Chính lý do này thì thiết kế web chuẩn SEO bắt buộc phải có Sitemap để đảm bảo Google và các công cụ tìm kiếm có thể thu thập dữ liệu một cách nhanh nhất.
+
