@@ -201,37 +201,37 @@
 - Về dạng: 
 
       <table align="center">
-         <tr>
-             <td align="center" ><b>Tên</b></td>
-             <td align="center"><b>Chức năng</b></td>
-         </tr>
-         <tr>
-             <td ><b>Sitemap Index</b></td>
-             <td ><b> Tập hợp các Sitemap được đính kèm và được dùng để đặt trong file robots.txt</b></td>  
-         </tr>
-         <tr>
-             <td ><b>Sitemap-category.xml</b></td>
-             <td ><b>Tập hợp cấu trúc của các danh mục trên website.</b></td>   
-         </tr>
-         <tr>
-             <td><b>Sitemap-products.xml</b></td>
-             <td><b>Sitemap dành cho các link chi tiết về các sản phẩm trên trang. </b></td>          
-         </tr>
-         <tr>
-             <td ><b>Sitemap-articles.xml</b></td>
-             <td ><b>Giúp Google tìm thấy nội dung trên các trang web được chấp thuận cho Google Tin tức..</b></td>   
-         </tr>
-         <tr>
-             <td ><b>Sitemap-tags.xml</b></td>
-             <td ><b>Sitemap dành cho các thẻ trên website</b></td>   
-         </tr>
-         <tr>
-             <td ><b>Sitemap-video.xml</b></td>
-             <td ><b>Sitemap dành riêng cho video trên các page, website. Được sử dụng đặc biệt để giúp Google hiểu nội dung video trên trang của bạn</b></td>   
+        <tr>
+           <td align="center" ><b>Tên</b></td>
+           <td align="center"><b>Chức năng</b></td>
         </tr>
         <tr>
-             <td ><b>Sitemap-image.xml</b></td>
-             <td ><b>Giúp Google tìm thấy tất cả các hình ảnh được lưu trữ trên trang web của bạn</b></td>   
+           <td ><b>Sitemap Index</b></td>
+           <td ><b> Tập hợp các Sitemap được đính kèm và được dùng để đặt trong file robots.txt</b></td>  
+        </tr>
+        <tr>
+           <td ><b>Sitemap-category.xml</b></td>
+           <td ><b>Tập hợp cấu trúc của các danh mục trên website.</b></td>   
+        </tr>
+        <tr>
+           <td><b>Sitemap-products.xml</b></td>
+           <td><b>Sitemap dành cho các link chi tiết về các sản phẩm trên trang. </b></td>          
+        </tr>
+        <tr>
+           <td ><b>Sitemap-articles.xml</b></td>
+           <td ><b>Giúp Google tìm thấy nội dung trên các trang web được chấp thuận cho Google Tin tức..</b></td>   
+        </tr>
+        <tr>
+           <td ><b>Sitemap-tags.xml</b></td>
+           <td ><b>Sitemap dành cho các thẻ trên website</b></td>   
+        </tr>
+        <tr>
+           <td ><b>Sitemap-video.xml</b></td>
+           <td ><b>Sitemap dành riêng cho video trên các page, website. Được sử dụng đặc biệt để giúp Google hiểu nội dung video trên trang của bạn</b></td>   
+        </tr>
+        <tr>
+           <td ><b>Sitemap-image.xml</b></td>
+           <td ><b>Giúp Google tìm thấy tất cả các hình ảnh được lưu trữ trên trang web của bạn</b></td>   
         </tr>
      </table>
   
