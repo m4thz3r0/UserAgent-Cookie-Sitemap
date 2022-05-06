@@ -265,3 +265,35 @@
 
   ![image](https://user-images.githubusercontent.com/101852647/167171986-44a3f83f-8c4e-455c-95c9-7a4d1b0580c0.png)
 
+#### 6. Tìm hiểu về cookie <a name="gioithieu"></a>
+<br> 6.1 Cookie là gì? <a name="tc"></a></br>
+ - Cookie là một bộ nhắc nhỏ mà website lưu trữ ở trên máy tính của bạn có thể định danh cho bạn. Khi bạn truy cập và một trang web, website này sẽ đặt một cookie tại trên máy đó, thay cho việc liên tục hỏi bạn các thông tin như nhau, chương trình trên website có thể sao lưu thông tin vào một cookie mà khi cần thông tin sẽ đọc cookie. Nếu không có cookie bạn sẽ phải nhập lại thông tin của mình trên mỗi màn hình web. Thông tin duy nhất mà cookie lưu trữ là thông tin mà bản thân bạn chia sẻ với website tạo ra cookie. Một website không thể đọc cookie của một công ty khác trừ khi công ty kia cung cấp cho công ty đó chứa khóa giải thích ý nghĩa của cookie.
+ 
+<br> 6.2 Các loại cookie <a name="tc"></a></br>
+ - `Session Cookie`: được lưu trong bộ nhớ của máy tính chỉ trong phiên duyệt web và sẽ tự động xóa khỏi máy tính khi trình duyệt đóng lại. Những cookie này thường được lưu trữ dưới dạng ID. Nó cho phép bạn nhanh chóng chuyển tới một trang mới mà không cần đăng nhập lại. Chúng được sử dụng rộng rãi ở những trang web thương mại.
+ - `Persistent Cookie`:  được lưu trữ trên ổ cứng của máy tính và không bị xóa khi trình duyệt đóng lại. Những cookie này có thể thiết lập những sở thích của bạn đối với mỗi trang web cụ thể khi bạn quay lại, cho phép những ưu đãi sẽ được sử dụng trong những lần trình duyệt tiếp theo.
+ - `Cookie của bên thứ ba`: Thông thường, thuộc tính miền của cookie sẽ khớp với miền được hiển thị trong thanh địa chỉ của trình duyệt web. Đây được gọi là cookie của bên thứ nhất . Tuy nhiên, cookie của bên thứ ba thuộc về miền khác với miền được hiển thị trên thanh địa chỉ. Cookie cho phép các công ty tiếp thị hoặc quảng cáo.
+ 
+<br> 6.3 Lợi ích của Cookie <a name="tc"></a></br>
+ - Đối với doanh nghiệp:
+   - Doanh nghiệp có thể biết được một số thồng tin về những người đang truy cập web của mình, biết được mức độ thường xuyên truy cập cũng như thời gian chi tiết truy cập.
+
+   - Doanh nghiệp có thể biết được sự cảm nhận của bạn khi duyệt web đó. Lưu trữ thông tin cá nhân của khách hàng, những thông tin này sẽ giúp khách hàng khi vào trang web đó lần sau sẽ thuận tiện hơn.
+
+   - Doanh nghiệp sẽ dùng cookie để điều chỉnh các quảng cáo của mình, cung cấp cho biết những quảng cáo nào được xem nhiều nhất từ đó đưa ra biện pháp điều chỉnh hoặc thiết kế phù hợp.
+   
+ - Đối với người dùng: 
+   - Chúng làm cho web tiện lợi hơn, người dùng có thể truy cập vào web nhanh hơn không phải nhập lại các thông tin nhiều lần.
+<br> 6.4 Rủi ro của Cookie <a name="tc"></a></br>
+ - Cookie ảnh hưởng tới sự riêng tư của người dùng. cũng như rò rỉ thông tin cá nhân. Cookie theo dõi người dùng đã ghé thăm những nơi nào và đã xem những gì trên web.
+ -  Bản thân các cookie không thể dùng để phát tán virus, mã độc. Tuy nhiên nó có thể thu thập khá nhiều thông tin cá nhân của bạn nhất là những thông tin bạn cung cấp trên trang web như thông tin thẻ tín dụng… nên cookie có thể làm tăng nguy cơ mất thông tin đăng nhập nếu như người khác sử dụng máy tính của bạn, hoặc trường hợp máy tính của bạn bị xâm nhập, đánh cắp.
+<br> 6.5 Chúng ta cần làm gì để sử dụng cookie an toàn <a name="tc"></a></br>
+ - Thiết lập tùy chọn cookie bằng cách sử dụng cài đặt chế độ bảo mật cho trình duyệt.
+ - Xóa cookie định kỳ trên máy tính
+ - `Session Cookie` được tự động xóa khi hoàn thành một giao dịch, bằng việc xóa cookie của bạn theo định kỳ sẽ làm giảm nguy cơ của việc lạm dụng thông tin vô tình hay cố ý lưu trữ trong cookie
+ - Không cho phép cookie được lưu trữ thông tin đăng nhập
+ - Giữ cho hệ thống trình duyệt của bạn được tự động update các bản vá lỗi, cập nhật phần mềm chống phần mềm giả mạo, chỉ truy cập vào những trang web đáng tin cậy
+ - Nếu bạn muốn chia sẻ dữ liệu trực tuyến của bạn với ai đó, đặt thiết lập bảo mật
+ - Thận trọng khi chia sẻ máy tính của bạn, nếu bạn lưu trữ thông tin sử dụng cookie (username, password..) các cá nhân sử dụng máy tính của bạn có thể sẽ truy cập vào tài khoản của bạn và thực hiện các giao dịch qua tên bạn
+ - Nên sử dụng các tiện ích để xóa bỏ các cookie ra khỏi đĩa cứng như IEClean hay NSClean…
+ 
