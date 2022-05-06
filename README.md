@@ -172,12 +172,12 @@
      - HTML (Hiển thị cho người dùng dễ truy cập trên các giao diện trang web)
      
      <table align="center">
-   <tr>
+      <tr>
         <td align="center" ><b>Sitemap</b></td>
         <td align="center"><b>XML</b></td>
         <td align="center"><b>HTML</b></td>   
-   </tr>
-   <tr>
+      </tr>
+      <tr>
         <td ><b>Đặc điểm</b></td>
         <td ><br><b>- Chứa các metadata chung với URL của website</b></br>
              <br><b>- Chứa các thông tin về thời gian cập nhật</b></br>
@@ -185,56 +185,58 @@
         <td ><br><b>- Cung cấp chuyển hướng rõ ràng cho người dùng</b></br>
              <br><b>- Dựa vào tính thân thiện thúc đẩy thứ hạng của website</b></br>
         </td> 
-   </tr>
-   <tr>
+      </tr>
+      <tr>
         <td ><b>Giống nhau</b></td>
         <td colspan="2" align="center"><b>XML và HTML đều cho phép trang web dễ dàng crawl bởi search engines</b></td>   
-   </tr>
-   <tr>
+      </tr>
+      <tr>
         <td><b>Khác nhau</b></td>
         <td><b>Dùng được cho search engine </b></td>      
         <td><b>Viết cho người dùng website</b></td>      
-   </tr>
+      </tr>
   
- </table>
- 
+    </table>
+    
 - Về dạng: 
 
    <table align="center">
-   <tr>
+    <tr>
         <td align="center" ><b>Tên</b></td>
         <td align="center"><b>Chức năng</b></td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
         <td ><b>Sitemap Index</b></td>
         <td ><b> Tập hợp các Sitemap được đính kèm và được dùng để đặt trong file robots.txt</b></td>  
-   </tr>
-   <tr>
+    </tr>
+    <tr>
         <td ><b>Sitemap-category.xml</b></td>
         <td ><b>Tập hợp cấu trúc của các danh mục trên website.</b></td>   
-   </tr>
-   <tr>
+    </tr>
+    <tr>
         <td><b>Sitemap-products.xml</b></td>
         <td><b>Sitemap dành cho các link chi tiết về các sản phẩm trên trang. </b></td>          
-   </tr>
+    </tr>
     <tr>
         <td ><b>Sitemap-articles.xml</b></td>
         <td ><b>Giúp Google tìm thấy nội dung trên các trang web được chấp thuận cho Google Tin tức..</b></td>   
-   </tr>
+    </tr>
     <tr>
         <td ><b>Sitemap-tags.xml</b></td>
         <td ><b>Sitemap dành cho các thẻ trên website</b></td>   
-   </tr>
+    </tr>
     <tr>
         <td ><b>Sitemap-video.xml</b></td>
         <td ><b>Sitemap dành riêng cho video trên các page, website. Được sử dụng đặc biệt để giúp Google hiểu nội dung video trên trang của bạn</b></td>   
    </tr>
-    <tr>
+   <tr>
         <td ><b>Sitemap-image.xml</b></td>
         <td ><b>Giúp Google tìm thấy tất cả các hình ảnh được lưu trữ trên trang web của bạn</b></td>   
    </tr>
- </table>
+  </table>
+  
 <br> 4.3 Tại sao phải cần dùng sitemap <a name="tc"></a></br>
  - Chúng ta luôn muốn Google thu thập dữ liệu mọi trang và liên kết quan trọng trên website một cách nhanh chóng. Sitemap sẽ là bản đồ điều hướng, giúp các bot của google có thể dễ dàng và nhanh chóng thu thập được dữ liệu nội dung trên website của chúng ta.
+ 
  - Sitemap còn có thể chứa các siêu dữ liệu về mỗi URL, thông báo sẽ được gửi đến cho chúng ta khi nó mới được cập nhật. Toàn bộ công việc của Sitemap là hướng dẫn cho các bộ máy tìm kiếm thu thập thông tin của trang web một cách hiệu quả đồng thời cập nhật những thay đổi trên trang web của bạn.Chính lý do này thì thiết kế web chuẩn SEO bắt buộc phải có Sitemap để đảm bảo Google và các công cụ tìm kiếm có thể thu thập dữ liệu một cách nhanh nhất.
 
