@@ -188,7 +188,7 @@
    </tr>
    <tr>
         <td ><b>Giống nhau</b></td>
-        <td colspan="2"><b>XML và HTML đều cho phép trang web dễ dàng crawl bởi search engines</b></td>   
+        <td colspan="2" align="center"><b>XML và HTML đều cho phép trang web dễ dàng crawl bởi search engines</b></td>   
    </tr>
    <tr>
         <td><b>Khác nhau</b></td>
