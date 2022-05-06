@@ -299,3 +299,59 @@
  - Thận trọng khi chia sẻ máy tính của bạn, nếu bạn lưu trữ thông tin sử dụng cookie (username, password..) các cá nhân sử dụng máy tính của bạn có thể sẽ truy cập vào tài khoản của bạn và thực hiện các giao dịch qua tên bạn
  - Nên sử dụng các tiện ích để xóa bỏ các cookie ra khỏi đĩa cứng như IEClean hay NSClean…
  
+#### 7. Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để xem và thay đổi Cookie <a name="gioithieu"></a> 
+<br> 7.1 Trên chrome <a name="tc"></a></br>
+  - Một số tính năng chính của công cụ quản lý cookie EditThisCookie:
+    - Xóa bất kì cookie nào.
+    - Chỉnh sửa cookie.
+    - Thêm các cookie mới.
+    - Tìm kiếm cookie.
+    - Bảo vệ cookie (với chế độ read-only).
+    - Chặn cookie (thông qua việc lọc cookie).
+    - Xuất cookie sang file JSON, Netscape (phù hợp với wget và curl), Perl.
+    - Nhập cookie từ file JSON.
+    - Giới hạn ngày hết hạn tối đa của bất kì cookie nào.
+  - Đầu tiên chúng ta sẽ vào google và gõ tìm kiếm `editthiscookie for chrome` kết quả hiện thị như bên dưới:
+
+     ![image](https://user-images.githubusercontent.com/101852647/167181128-72651cac-58a3-45f0-b29f-c4648596fc0f.png)
+   
+   - Sau đó chúng ta nhấn vào và bắt đầu tải Extension cho chrome . Chúng ta sẽ nhấn `add to chrome`.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167181178-ad62b658-fa1b-4c6c-902d-6b62fa35b7ec.png)
+
+   - Tiếp theo ta sẽ nhấn `add Extension` và bắt đầu đợi cài đặt.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167181231-19d989a5-92ea-4d61-b45c-7ff06163ce75.png)
+
+   - Sau khi cài đặt hoàn tất Để xem cookie cho một website, mở website đó trên trình duyệt, click chọn biểu tượng của tiện ích EditThisCookie, khi đó một cửa sổ sẽ hiển thị tất cả các cookie đang hoạt động trên website đó. chúng ta sẽ được giao diện như hình bên dưới:
+
+     ![image](https://user-images.githubusercontent.com/101852647/167181341-3a9b7b80-81bf-4fd2-9893-8e1348adefe5.png) 
+
+   -  Để chỉnh sửa cookie, chỉ cần nhấp chuột vào cookie cần chỉnh sửa và gõ thông tin vào các trường thông tin hiển thị. Ta thấy thời gian là `00:40:47` bây giờ ta sẽ thay đổi giá trị thời gian thành `00:50:47` hoặc có thể thay đổi value bằng cách thêm vào `1234` và nhấn tick xanh. Như vậy là chúng ta có thể thay đổi cookie rồi.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167189290-18dd77d0-2d35-49a3-a7a5-a65bfcb8481f.png)
+     
+     ![image](https://user-images.githubusercontent.com/101852647/167189995-0e21c704-40d0-4337-b481-163fa1cb913a.png)
+
+<br> 7.2 Trên Firefox <a name="tc"></a></br>
+- Đầu tiên chúng ta sẽ vào google và gõ tìm kiếm `editthiscookie for firefox` kết quả hiện thị như bên dưới:
+
+     ![image](https://user-images.githubusercontent.com/101852647/167192111-1d632074-a804-4e83-a823-90764b419efc.png)
+   
+   - Sau đó chúng ta nhấn vào và bắt đầu tải Extension cho firefox . Chúng ta sẽ nhấn `Thêm vào firefox`.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167192488-8f643255-ad89-41c0-9b3c-4bccd9476308.png)
+
+   - Tiếp theo ta sẽ nhấn `add ` và bắt đầu đợi cài đặt.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167192559-15ac3331-223f-4e92-9a89-1ba11edf1fca.png)
+     
+   - Sau khi cài đặt hoàn tất Để xem cookie cho một website, mở website đó trên trình duyệt, click chọn biểu tượng của tiện ích EditThisCookie, khi đó một cửa sổ sẽ hiển thị tất cả các cookie đang hoạt động trên website đó. chúng ta sẽ được giao diện như hình bên dưới:
+
+     ![image](https://user-images.githubusercontent.com/101852647/167192655-b67a9882-4353-435d-aad4-92eb740e61e6.png)
+
+   -  Để chỉnh sửa cookie, chỉ cần nhấp chuột vào cookie cần chỉnh sửa và gõ thông tin vào các trường thông tin hiển thị. Ta thấy thời gian là `00:59:47` bây giờ ta sẽ thay đổi giá trị thời gian thành `00:30:47` hoặc có thể thay đổi value bằng cách thêm vào `1234` và nhấn tick xanh. Như vậy là chúng ta có thể thay đổi cookie rồi.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167192721-c315cec1-a4be-4a8a-ad0b-2652d222b3d6.png)
+     
+     ![image](https://user-images.githubusercontent.com/101852647/167192943-9788c425-f727-433d-9eca-367de3dfedd3.png)
