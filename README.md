@@ -181,15 +181,15 @@
    <tr>
         <td ><b>Đặc điểm</b></td>
         <td ><br><b>- Chứa các metadata chung với URL của website</b></br>
-             <b>- Chứa các thông tin về thời gian cập nhật</b>
+             <br><b>- Chứa các thông tin về thời gian cập nhật</b></br>
         </td>  
         <td ><br><b>- Cung cấp chuyển hướng rõ ràng cho người dùng</b></br>
-             <b>- Dựa vào tính thân thiện thúc đẩy thứ hạng của website</b>
+             <br><b>- Dựa vào tính thân thiện thúc đẩy thứ hạng của website</b></br>
         </td> 
    </tr>
    <tr>
         <td ><b>Giống nhau</b></td>
-        <td><b>XML và HTML đều cho phép trang web dễ dàng crawl bởi search engines</b></td>   
+        <td>XML và HTML đều cho phép trang web dễ dàng crawl bởi search engines</td>   
    </tr>
    <tr>
         <td><b>Khác nhau</b></td>
