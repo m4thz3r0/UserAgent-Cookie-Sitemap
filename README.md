@@ -183,7 +183,7 @@
              <br><b>- Chứa các thông tin về thời gian cập nhật</b></br>
         </td>  
         <td ><br><b>- Cung cấp chuyển hướng rõ ràng cho người dùng</b></br>
-             <b>- Dựa vào tính thân thiện thúc đẩy thứ hạng của website</b>
+             <br><b>- Dựa vào tính thân thiện thúc đẩy thứ hạng của website</b></br>
         </td> 
    </tr>
    <tr>
