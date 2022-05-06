@@ -1,41 +1,55 @@
  # <div align="center"><p> UserAgent, Cookie, Sitemap </p></div>
  ## Họ và tên: Mai Thị Hoàng Yến
- ## Ngày báo cáo: Ngày 8/5/2022
+ ## Ngày báo cáo: Ngày 7/5/2022
  ### MỤC LỤC
- 1. [User agent](#gioithieu)
+ 1. [User agent](#1)
  
-     1.1 [Phương pháp manual](#tc)
+     1.1 [User agent là gì?](#11)
       
-     1.2 [Phương pháp sử dụng sqlmap](#pp)
- 
-     1.3 [Phương pháp sử dụng công cụ BurpSuite](#p3)
+     1.2 [User agent sử dụng trong HTTP](#12)
      
- 2. [website để kiểm tra UA](#mp) 
+ 2. [website để kiểm tra UA](#2) 
        
- 3. [Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để thay đổi UA trên Chrome và Firefox](#lv)
+ 3. [Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để thay đổi UA trên Chrome và Firefox](#3)
 
-     3.1 [Code sửa lỗi sqli cho level2](#code1)
+     3.1 [Trên Chrome](#31)
       
-     3.2 [Code sửa lỗi sqli cho level1](#code2)
+     3.2 [Trên Firefox](#32)
      
-     3.3 [Các hàm sử dụng](#chsd)
- 4. [Tìm hiểu về sitemap](#lv)
+ 4. [Tìm hiểu về sitemap](#4)
 
+     4.1 [sitemap là gì?](#41)
+      
+     4.2 [Các loại sitemap](#42)
 
- 5. [Tạo sitemap trên web cá nhân của mình](#lv)
+     4.3 [Tại sao phải cần dùng sitemap](#43)
+  
+ 5. [Tạo sitemap trên web cá nhân của mình](#5)
 
+ 6. [Tìm hiểu về Cookie](#6)
 
- 6. [Tìm hiểu về Cookie](#lv)
+     6.1 [Cookie là gì?](#61)
+      
+     6.2 [Các loại cookie](#62)
 
- 7. [Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để xem và thay đổi Cookie ](#lv)
+     6.3 [ Lợi ích của Cookie](#63)
 
+     6.4 [Rủi ro của Cookie](#64)
+      
+     6.5 [Chúng ta cần làm gì để sử dụng cookie an toàn](#65)
+
+ 7. [Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để xem và thay đổi Cookie ](#7)
+
+     7.1 [Trên Chrome](#71)
+      
+     7.2 [Trên Firefox](#72)
 
 ### Nội dung báo cáo 
-#### 1. User agent là gì? <a name="gioithieu"></a>
-<br> 1.1 User agent là gì? <a name="tc"></a></br>
+#### 1. User agent <a name="1"></a>
+<br> 1.1 User agent là gì? <a name="11"></a></br>
   - User agent thì nó là một chuỗi nhận dạng của trình duyệt khi gửi yêu cầu đến Web Server (máy chủ web). Khi trình duyệt web của bạn truy cập 1 trang Web bất kỳ, trình duyệt web của bạn có thể gửi một HTTP Request bao gồm chuỗi UA đến Web Server. Nội dung của UA tùy thuộc vào trình duyệt web các bạn dùng, mỗi trình duyệt đều có riêng 1 chuỗi UA nhất định. 
   
-<br> 1.2 User agent sử dụng trong HTTP <a name="tc"></a></br>
+<br> 1.2 User agent sử dụng trong HTTP <a name="12"></a></br>
  - chuỗi User-Agent thường được sử dụng để thương lượng nội dung , trong đó máy chủ gốc chọn nội dung hoặc thông số hoạt động phù hợp cho phản hồi. Như với nhiều tiêu đề yêu cầu HTTP khác, thông tin trong chuỗi " User-Agent " góp phần vào thông tin mà máy khách gửi đến máy chủ, vì chuỗi này có thể khác nhau đáng kể từ người dùng này sang người dùng khác.
    - Định dạng cho các trình duyệt web do con người vận hành:
      - Định dạng của chuỗi User-Agent trong HTTP là danh sách các mã thông báo sản phẩm (từ khóa) với các nhận xét tùy chọn.  Ví dụ: nếu sản phẩm của người dùng được gọi là WikiBrowser, thì chuỗi User-Agent của họ có thể là WikiBrowser / 1.0 Gecko / 1.0 . Thành phần sản phẩm "quan trọng nhất" được liệt kê đầu tiên. Các phần của chuỗi này như sau:
@@ -67,7 +81,7 @@
    - Ngừng sử dụng tiêu đề User agent:
      - Google tuyên bố rằng một tính năng mới có tên là Client Hints sẽ thay thế chức năng của chuỗi User-Agent.
 
-#### 2. website để kiểm tra UA <a name="gioithieu"></a>
+#### 2. website để kiểm tra UA <a name="2"></a>
  - Một số link website để kiểm tra UA:
    - https://www.whatsmyua.info
    - https://webbrowsertools.com/useragent/  
@@ -75,8 +89,8 @@
    - https://dnschecker.org/user-agent-info.php
    - https://www.whatismybrowser.com
    
-#### 3. Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để thay đổi UA trên Chrome và Firefox <a name="gioithieu"></a>
- <br> 3.1 Trên Chrome <a name="tc"></a></br>
+#### 3. Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để thay đổi UA trên Chrome và Firefox <a name="3"></a>
+ <br> 3.1 Trên Chrome <a name="31"></a></br>
    - Đầu tiên chúng ta sẽ vào google và gõ tìm kiếm `user agent switcher and manager chrome` kết quả hiện thị như bên dưới:
 
      ![image](https://user-images.githubusercontent.com/101852647/167112431-5c61d2bf-4f36-46aa-9352-d774496f1680.png)
@@ -115,7 +129,7 @@
 
     ![image](https://user-images.githubusercontent.com/101852647/167114687-6482a3e2-0057-4d79-a187-ca5f19945408.png)
 
-<br> 3.2 Trên Firefox <a name="tc"></a></br>
+<br> 3.2 Trên Firefox <a name="32"></a></br>
 
    - Đầu tiên chúng ta sẽ vào google và gõ tìm kiếm `user agent switcher and manager Firefox` kết quả hiện thị như bên dưới:
 
@@ -155,15 +169,15 @@
 
     ![image](https://user-images.githubusercontent.com/101852647/167116683-725b86b6-89a8-44fa-9270-1f73faca245f.png)
 
-#### 4. Tìm hiểu về sitemap <a name="gioithieu"></a>
-<br> 4.1 sitemap là gì? <a name="tc"></a></br>
+#### 4. Tìm hiểu về sitemap <a name="4"></a>
+<br> 4.1 sitemap là gì? <a name="41"></a></br>
  - Sitemap (sơ đồ website) là một file liệt kê các trang và tệp tin trên website. Danh sách liệt kê được sắp xếp theo dạng sơ đồ phân tầng (giảm dần sự quan trọng) giúp các công cụ tìm kiếm:
 
    - Thu thập dữ liệu trên trang web của bạn hiệu quả hơn
    - Biết những URL nào bạn muốn ưu tiên xuất hiện
    - Hiển thị kết quả trên trang tìm kiếm thông minh hơn
    
-<br> 4.2 Các loại sitemap <a name="tc"></a></br>
+<br> 4.2 Các loại sitemap <a name="42"></a></br>
  - Về mặt cấu trúc: 
    - Có 2 loại sitemap là XML và HTML.
 
@@ -235,12 +249,12 @@
       </tr>
    </table>
   
-<br> 4.3 Tại sao phải cần dùng sitemap <a name="tc"></a></br>
+<br> 4.3 Tại sao phải cần dùng sitemap <a name="43"></a></br>
  - Chúng ta luôn muốn Google thu thập dữ liệu mọi trang và liên kết quan trọng trên website một cách nhanh chóng. Sitemap sẽ là bản đồ điều hướng, giúp các bot của google có thể dễ dàng và nhanh chóng thu thập được dữ liệu nội dung trên website của chúng ta.
  
  - Sitemap còn có thể chứa các siêu dữ liệu về mỗi URL, thông báo sẽ được gửi đến cho chúng ta khi nó mới được cập nhật. Toàn bộ công việc của Sitemap là hướng dẫn cho các bộ máy tìm kiếm thu thập thông tin của trang web một cách hiệu quả đồng thời cập nhật những thay đổi trên trang web của bạn.Chính lý do này thì thiết kế web chuẩn SEO bắt buộc phải có Sitemap để đảm bảo Google và các công cụ tìm kiếm có thể thu thập dữ liệu một cách nhanh nhất.
  
-#### 5. Tạo sitemap trên web cá nhân của mình <a name="gioithieu"></a>
+#### 5. Tạo sitemap trên web cá nhân của mình <a name="5"></a>
  - Truy cập vào website http://www.xml-sitemaps.com/
  
    ![image](https://user-images.githubusercontent.com/101852647/167170299-3d87db73-d6ff-482c-9983-01920865a2ae.png)
@@ -265,16 +279,16 @@
 
   ![image](https://user-images.githubusercontent.com/101852647/167171986-44a3f83f-8c4e-455c-95c9-7a4d1b0580c0.png)
 
-#### 6. Tìm hiểu về cookie <a name="gioithieu"></a>
-<br> 6.1 Cookie là gì? <a name="tc"></a></br>
+#### 6. Tìm hiểu về cookie <a name="6"></a>
+<br> 6.1 Cookie là gì? <a name="61"></a></br>
  - Cookie là một bộ nhắc nhỏ mà website lưu trữ ở trên máy tính của bạn có thể định danh cho bạn. Khi bạn truy cập và một trang web, website này sẽ đặt một cookie tại trên máy đó, thay cho việc liên tục hỏi bạn các thông tin như nhau, chương trình trên website có thể sao lưu thông tin vào một cookie mà khi cần thông tin sẽ đọc cookie. Nếu không có cookie bạn sẽ phải nhập lại thông tin của mình trên mỗi màn hình web. Thông tin duy nhất mà cookie lưu trữ là thông tin mà bản thân bạn chia sẻ với website tạo ra cookie. Một website không thể đọc cookie của một công ty khác trừ khi công ty kia cung cấp cho công ty đó chứa khóa giải thích ý nghĩa của cookie.
  
-<br> 6.2 Các loại cookie <a name="tc"></a></br>
+<br> 6.2 Các loại cookie <a name="62"></a></br>
  - `Session Cookie`: được lưu trong bộ nhớ của máy tính chỉ trong phiên duyệt web và sẽ tự động xóa khỏi máy tính khi trình duyệt đóng lại. Những cookie này thường được lưu trữ dưới dạng ID. Nó cho phép bạn nhanh chóng chuyển tới một trang mới mà không cần đăng nhập lại. Chúng được sử dụng rộng rãi ở những trang web thương mại.
  - `Persistent Cookie`:  được lưu trữ trên ổ cứng của máy tính và không bị xóa khi trình duyệt đóng lại. Những cookie này có thể thiết lập những sở thích của bạn đối với mỗi trang web cụ thể khi bạn quay lại, cho phép những ưu đãi sẽ được sử dụng trong những lần trình duyệt tiếp theo.
  - `Cookie của bên thứ ba`: Thông thường, thuộc tính miền của cookie sẽ khớp với miền được hiển thị trong thanh địa chỉ của trình duyệt web. Đây được gọi là cookie của bên thứ nhất . Tuy nhiên, cookie của bên thứ ba thuộc về miền khác với miền được hiển thị trên thanh địa chỉ. Cookie cho phép các công ty tiếp thị hoặc quảng cáo.
  
-<br> 6.3 Lợi ích của Cookie <a name="tc"></a></br>
+<br> 6.3 Lợi ích của Cookie <a name="63"></a></br>
  - Đối với doanh nghiệp:
    - Doanh nghiệp có thể biết được một số thồng tin về những người đang truy cập web của mình, biết được mức độ thường xuyên truy cập cũng như thời gian chi tiết truy cập.
 
@@ -285,11 +299,11 @@
  - Đối với người dùng: 
    - Chúng làm cho web tiện lợi hơn, người dùng có thể truy cập vào web nhanh hơn không phải nhập lại các thông tin nhiều lần.
    
-<br> 6.4 Rủi ro của Cookie <a name="tc"></a></br>
+<br> 6.4 Rủi ro của Cookie <a name="64"></a></br>
  - Cookie ảnh hưởng tới sự riêng tư của người dùng. cũng như rò rỉ thông tin cá nhân. Cookie theo dõi người dùng đã ghé thăm những nơi nào và đã xem những gì trên web.
  -  Bản thân các cookie không thể dùng để phát tán virus, mã độc. Tuy nhiên nó có thể thu thập khá nhiều thông tin cá nhân của bạn nhất là những thông tin bạn cung cấp trên trang web như thông tin thẻ tín dụng… nên cookie có thể làm tăng nguy cơ mất thông tin đăng nhập nếu như người khác sử dụng máy tính của bạn, hoặc trường hợp máy tính của bạn bị xâm nhập, đánh cắp.
  
-<br> 6.5 Chúng ta cần làm gì để sử dụng cookie an toàn <a name="tc"></a></br>
+<br> 6.5 Chúng ta cần làm gì để sử dụng cookie an toàn <a name="65"></a></br>
  - Thiết lập tùy chọn cookie bằng cách sử dụng cài đặt chế độ bảo mật cho trình duyệt.
  - Xóa cookie định kỳ trên máy tính
  - `Session Cookie` được tự động xóa khi hoàn thành một giao dịch, bằng việc xóa cookie của bạn theo định kỳ sẽ làm giảm nguy cơ của việc lạm dụng thông tin vô tình hay cố ý lưu trữ trong cookie
@@ -299,8 +313,8 @@
  - Thận trọng khi chia sẻ máy tính của bạn, nếu bạn lưu trữ thông tin sử dụng cookie (username, password..) các cá nhân sử dụng máy tính của bạn có thể sẽ truy cập vào tài khoản của bạn và thực hiện các giao dịch qua tên bạn
  - Nên sử dụng các tiện ích để xóa bỏ các cookie ra khỏi đĩa cứng như IEClean hay NSClean…
  
-#### 7. Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để xem và thay đổi Cookie <a name="gioithieu"></a> 
-<br> 7.1 Trên chrome <a name="tc"></a></br>
+#### 7. Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để xem và thay đổi Cookie <a name="7"></a> 
+<br> 7.1 Trên chrome <a name="71"></a></br>
   - Một số tính năng chính của công cụ quản lý cookie EditThisCookie:
     - Xóa bất kì cookie nào.
     - Chỉnh sửa cookie.
@@ -329,11 +343,11 @@
 
    -  Để chỉnh sửa cookie, chỉ cần nhấp chuột vào cookie cần chỉnh sửa và gõ thông tin vào các trường thông tin hiển thị. Ta thấy thời gian là `00:40:47` bây giờ ta sẽ thay đổi giá trị thời gian thành `00:50:47` hoặc có thể thay đổi value bằng cách thêm vào `1234` và nhấn tick xanh. Như vậy là chúng ta có thể thay đổi cookie rồi.
 
-     ![image](https://user-images.githubusercontent.com/101852647/167189290-18dd77d0-2d35-49a3-a7a5-a65bfcb8481f.png)
+    ![image](https://user-images.githubusercontent.com/101852647/167189290-18dd77d0-2d35-49a3-a7a5-a65bfcb8481f.png)
      
-     ![image](https://user-images.githubusercontent.com/101852647/167189995-0e21c704-40d0-4337-b481-163fa1cb913a.png)
+    ![image](https://user-images.githubusercontent.com/101852647/167189995-0e21c704-40d0-4337-b481-163fa1cb913a.png)
 
-<br> 7.2 Trên Firefox <a name="tc"></a></br>
+<br> 7.2 Trên Firefox <a name="72"></a></br>
 - Đầu tiên chúng ta sẽ vào google và gõ tìm kiếm `editthiscookie for firefox` kết quả hiện thị như bên dưới:
 
      ![image](https://user-images.githubusercontent.com/101852647/167192111-1d632074-a804-4e83-a823-90764b419efc.png)
