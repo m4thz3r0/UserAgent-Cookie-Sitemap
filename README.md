@@ -76,7 +76,7 @@
    - https://www.whatismybrowser.com
    
 #### 3. Tìm kiếm, cài đặt, chụp ảnh thực tế một vài Extension/Addon dùng để thay đổi UA trên Chrome và Firefox <a name="gioithieu"></a>
- - Trên Chrome:
+ <br> 3.1 Trên Chrome <a name="tc"></a></br>
    - Đầu tiên chúng ta sẽ vào google và gõ tìm kiếm `user agent switcher and manager chrome` kết quả hiện thị như bên dưới:
 
      ![image](https://user-images.githubusercontent.com/101852647/167112431-5c61d2bf-4f36-46aa-9352-d774496f1680.png)
@@ -115,4 +115,42 @@
 
     ![image](https://user-images.githubusercontent.com/101852647/167114687-6482a3e2-0057-4d79-a187-ca5f19945408.png)
 
+<br> 3.2 Trên Firefox <a name="tc"></a></br>
 
+   - Đầu tiên chúng ta sẽ vào google và gõ tìm kiếm `user agent switcher and manager Firefox` kết quả hiện thị như bên dưới:
+
+     ![image](https://user-images.githubusercontent.com/101852647/167116202-8b8098f1-c496-4a37-9a30-7307de428c99.png)
+   
+   - Sau đó chúng ta nhấn vào và bắt đầu tải Extension cho firefox . Chúng ta sẽ nhấn `Thêm vào firefox`.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167116281-74201de5-5bcc-4596-ab70-5507729e122c.png)
+
+   - Tiếp theo ta sẽ nhấn `add` và bắt đầu đợi cài đặt.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167116312-b428a852-a289-41cc-9764-756659eb4178.png)
+
+   - Sau khi cài đặt xong chúng ta sẽ được giao diện như hình bên dưới:
+
+     ![image](https://user-images.githubusercontent.com/101852647/167116337-cf965734-84d4-4a58-8785-885b85d4d6ad.png)
+
+   - Đầu tiên để kiểm tra thử UA của chúng ta thì nhấn vào Test UA nó sẽ hiện thị UA của chúng ta :
+
+     ![image](https://user-images.githubusercontent.com/101852647/167116409-f34fa7bc-9575-4fe0-8e7a-8310fd58b23b.png)
+     
+   - Giả sử để thay đổi UA chúng ta sẽ chọn trình duyệt trình duyệt Chrome và chọn hệ điều hành là linux chẳng hạn.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167116475-a466a612-f164-4bde-a82f-fdef05a66d55.png)
+     
+     ![image](https://user-images.githubusercontent.com/101852647/167116500-07c3d47a-8255-4099-9178-0f039cd09084.png)
+     
+   - Chúng ta có thể chọn bất cứ UA nào . Ở đây , mình chọn UA thứ 3. Sau đó nhấn `Apply (active window).
+
+     ![image](https://user-images.githubusercontent.com/101852647/167116618-7e2b4fee-07d9-44bc-a660-8c999bc0e226.png)
+
+   - Sau đó chúng ta nhấn vào Test UA để kiểm tra xem UA đã thay đổi chưa. Chúng ta có thể thấy nó đã thay đổi UA so với lúc đầu.
+
+     ![image](https://user-images.githubusercontent.com/101852647/167116653-f3742951-2a32-4284-844f-d94091b1feac.png)
+
+  - Nếu chúng ta muốn thay đổi về lại UA ban đầu thì có thể nhấn Reset. Nó sẽ trả về UA ban đầu cho chúng ta.
+
+    ![image](https://user-images.githubusercontent.com/101852647/167116683-725b86b6-89a8-44fa-9270-1f73faca245f.png)
