@@ -180,16 +180,21 @@
    </tr>
    <tr>
         <td ><b>Đặc điểm</b></td>
-        <td ><b>Chứa các metadata chung với URL của website</b></td>  
-        <td ><b>Cung cấp chuyển hướng rõ ràng cho người dùng</b></td> 
+        <td ><b>Chứa các metadata chung với URL của website</b>
+             <b>Chứa các thông tin về thời gian cập nhật</b>
+        </td>  
+        <td ><b>Cung cấp chuyển hướng rõ ràng cho người dùng</b>
+             <b>Dựa vào tính thân thiện thúc đẩy thứ hạng của website</b>
+        </td> 
    </tr>
    <tr>
         <td ><b>Giống nhau</b></td>
-        <td ><b>Chi tiết liên quan đến các cột có kiểu dữ liệu bí danh</b></td>      
+        <b>XML và HTML đều cho phép trang web dễ dàng crawl bởi search engines</b>   
    </tr>
    <tr>
         <td><b>Khác nhau</b></td>
-        <td><b>Đặc quyền cột do người dùng hiện tại cấp hoặc cấp</b></td>      
+        <td><b>Dùng được cho search engine </b></td>      
+        <td><b>Viết cho người dùng website</b></td>      
    </tr>
   
  </table>
