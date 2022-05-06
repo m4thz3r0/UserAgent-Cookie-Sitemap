@@ -244,9 +244,13 @@
  - Truy cập vào website http://www.xml-sitemaps.com/
  
    ![image](https://user-images.githubusercontent.com/101852647/167170299-3d87db73-d6ff-482c-9983-01920865a2ae.png)
-   
- - Nhập URL và chọn Start
+ 
+ - Đây là trang web chính của mình.Coppy link web.
 
+   ![image](https://user-images.githubusercontent.com/101852647/167172340-2603d223-3a7e-4d89-bdf2-aaeec1f919ff.png)
+
+ - Nhập URL và chọn Start
+   
    ![image](https://user-images.githubusercontent.com/101852647/167170402-204f6afd-2a9c-464f-bcb8-2e23bc138eb8.png)
 
 - Sau khi quá trình xử lý kết thúc -> chọn View Sitemap Details
