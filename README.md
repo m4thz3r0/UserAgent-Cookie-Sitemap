@@ -67,4 +67,11 @@
    - Ngừng sử dụng tiêu đề User agent:
      - Google tuyên bố rằng một tính năng mới có tên là Client Hints sẽ thay thế chức năng của chuỗi User-Agent.
 
-  
+#### 1. website để kiểm tra UA <a name="gioithieu"></a>
+ - Một số link website để kiểm tra UA:
+   - [https://www.whatsmyua.info]
+   - [http://whatmyuseragent.org]
+   - [https://webbrowsertools.com/useragent/]  
+   - [https://whatmyuseragent.com]
+   - [https://dnschecker.org/user-agent-info.php]
+   - [https://www.whatismybrowser.com]
