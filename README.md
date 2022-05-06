@@ -343,9 +343,9 @@
 
    -  Để chỉnh sửa cookie, chỉ cần nhấp chuột vào cookie cần chỉnh sửa và gõ thông tin vào các trường thông tin hiển thị. Ta thấy thời gian là `00:40:47` bây giờ ta sẽ thay đổi giá trị thời gian thành `00:50:47` hoặc có thể thay đổi value bằng cách thêm vào `1234` và nhấn tick xanh. Như vậy là chúng ta có thể thay đổi cookie rồi.
 
-    ![image](https://user-images.githubusercontent.com/101852647/167189290-18dd77d0-2d35-49a3-a7a5-a65bfcb8481f.png)
+      ![image](https://user-images.githubusercontent.com/101852647/167189290-18dd77d0-2d35-49a3-a7a5-a65bfcb8481f.png)
      
-    ![image](https://user-images.githubusercontent.com/101852647/167189995-0e21c704-40d0-4337-b481-163fa1cb913a.png)
+      ![image](https://user-images.githubusercontent.com/101852647/167189995-0e21c704-40d0-4337-b481-163fa1cb913a.png)
 
 <br> 7.2 Trên Firefox <a name="72"></a></br>
 - Đầu tiên chúng ta sẽ vào google và gõ tìm kiếm `editthiscookie for firefox` kết quả hiện thị như bên dưới:
