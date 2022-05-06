@@ -41,10 +41,12 @@
      - Định dạng của chuỗi User-Agent trong HTTP là danh sách các mã thông báo sản phẩm (từ khóa) với các nhận xét tùy chọn.  Ví dụ: nếu sản phẩm của người dùng được gọi là WikiBrowser, thì chuỗi User-Agent của họ có thể là WikiBrowser / 1.0 Gecko / 1.0 . Thành phần sản phẩm "quan trọng nhất" được liệt kê đầu tiên. Các phần của chuỗi này như sau:
 
        ` Tên và phiên bản sản phẩm ( WikiBrowser / 1.0 )`
+       
        ` Công cụ bố trí và phiên bản ( Gecko / 1.0 )`
        
    - Định dạng cho tác nhân tự động (bot):
      - Các công cụ thu thập thông tin web tự động có thể sử dụng biểu mẫu đơn giản hóa, trong đó trường quan trọng là thông tin liên hệ trong trường hợp có sự cố. Theo quy ước từ "bot" được bao gồm trong tên của agent. Ví dụ:
+     
        `Googlebot / 2.1 (+ http: //www.google.com/bot.html)`
      
    - User agent spoofing:
