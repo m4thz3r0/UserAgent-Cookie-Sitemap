@@ -239,4 +239,25 @@
  - Chúng ta luôn muốn Google thu thập dữ liệu mọi trang và liên kết quan trọng trên website một cách nhanh chóng. Sitemap sẽ là bản đồ điều hướng, giúp các bot của google có thể dễ dàng và nhanh chóng thu thập được dữ liệu nội dung trên website của chúng ta.
  
  - Sitemap còn có thể chứa các siêu dữ liệu về mỗi URL, thông báo sẽ được gửi đến cho chúng ta khi nó mới được cập nhật. Toàn bộ công việc của Sitemap là hướng dẫn cho các bộ máy tìm kiếm thu thập thông tin của trang web một cách hiệu quả đồng thời cập nhật những thay đổi trên trang web của bạn.Chính lý do này thì thiết kế web chuẩn SEO bắt buộc phải có Sitemap để đảm bảo Google và các công cụ tìm kiếm có thể thu thập dữ liệu một cách nhanh nhất.
+ 
+#### 5. Tạo sitemap trên web cá nhân của mình <a name="gioithieu"></a>
+ - Truy cập vào website http://www.xml-sitemaps.com/
+ 
+   ![image](https://user-images.githubusercontent.com/101852647/167170299-3d87db73-d6ff-482c-9983-01920865a2ae.png)
+   
+ - Nhập URL và chọn Start
+
+   ![image](https://user-images.githubusercontent.com/101852647/167170402-204f6afd-2a9c-464f-bcb8-2e23bc138eb8.png)
+
+- Sau khi quá trình xử lý kết thúc -> chọn View Sitemap Details
+
+   ![image](https://user-images.githubusercontent.com/101852647/167170522-cb64772e-4994-418e-8626-402f911d9f15.png)
+
+- Download Sitemap
+
+   ![image](https://user-images.githubusercontent.com/101852647/167170683-8995ab8e-465a-47ac-85a9-1655c88f5544.png)
+
+- Upload file XML lên host tại thư mục của website và kiểm tra với URL `https://testsitemapphp.000webhostapp.com/sitemap.xml`
+
+  ![image](https://user-images.githubusercontent.com/101852647/167171986-44a3f83f-8c4e-455c-95c9-7a4d1b0580c0.png)
 
