@@ -200,7 +200,7 @@
     
 - Về dạng: 
 
-        <table align="center">
+      <table align="center">
          <tr>
              <td align="center" ><b>Tên</b></td>
              <td align="center"><b>Chức năng</b></td>
@@ -233,7 +233,7 @@
              <td ><b>Sitemap-image.xml</b></td>
              <td ><b>Giúp Google tìm thấy tất cả các hình ảnh được lưu trữ trên trang web của bạn</b></td>   
         </tr>
-       </table>
+     </table>
   
 <br> 4.3 Tại sao phải cần dùng sitemap <a name="tc"></a></br>
  - Chúng ta luôn muốn Google thu thập dữ liệu mọi trang và liên kết quan trọng trên website một cách nhanh chóng. Sitemap sẽ là bản đồ điều hướng, giúp các bot của google có thể dễ dàng và nhanh chóng thu thập được dữ liệu nội dung trên website của chúng ta.
